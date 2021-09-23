@@ -9,11 +9,11 @@ It is a E-Learning website which provides functionality of registering in any co
 
 ```bash
 # clone repository
-https://github.com/savajapurva/E-Learning-MERN.git
+https://github.com/newton00009/genstudy_ultimate.git
 
 # Install dependencies
-cd E-Learning-MERN && npm install
-cd E-Learning-MERN && cd client && npm install
+cd genstudy_ultimate && npm install
+cd genstudy_ultimate && cd client && npm install
 
 ```
 Create account in Mongo Atlas and create cluster. Get your MongoURI by following the instructions and add it in keys.js file which is inside the config folder. 
