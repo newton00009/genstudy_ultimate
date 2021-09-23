@@ -1,6 +1,6 @@
 // let path=require('path');
 let coursemodel = require("../../models/Course");
-let usermodel = require("../../models/User");
+//let usermodel = require("../../models/User");
 let catmodel = require("../../models/Category");
 let express = require("express");
 let router = express.Router();
