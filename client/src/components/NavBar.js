@@ -9,7 +9,7 @@ class NavBar extends Component {
     e.preventDefault();
 
     this.props.logoutUser();
-    // window.location.href = "/";
+     window.location.href = "/";
   }
 
   state = {
