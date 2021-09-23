@@ -35,7 +35,7 @@ router.post("/lectures/localupload", function(req, res) {
   coursemodel.find({ courseName: req.body.course }, function(error, cat) {
     if (!error && cat) {
       //console.log(cat)
-      req.body.course = cat[0]._id;
+      req.body.course = cat._id;
     }
     console.log(req.files);
     if (req.files != undefined) {

@@ -17,7 +17,7 @@ router.post("/course/add", (req, res) => {
   catmodel.find({ categoryName: req.body.category }, function(error, cat) {
     if (!error && cat) {
       console.log("Cat printed" + cat);
-      req.body.category = cat[0]._id;
+      req.body.category = cat._id;
     }
     console.log("Instructor Id" + req.body.instructor);
     const model = new coursemodel(req.body);

@@ -56,12 +56,12 @@ router.post("/enroll/add", (req, res) => {
   usermodel.find({ email: req.body.student }, function(error, cat) {
     if (!error && cat) {
       console.log(cat);
-      req.body.student = cat[0]._id;
+      req.body.student = cat._id;
     }
     coursemodel.find({ courseName: req.body.course }, function(error, cat) {
       if (!error && cat) {
         console.log(cat);
-        req.body.course = cat[0]._id;
+        req.body.course = cat._id;
       }
 
       let model = new enrollmodel(req.body);
