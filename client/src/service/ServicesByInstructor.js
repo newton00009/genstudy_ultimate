@@ -17,7 +17,7 @@ class Services extends Component {
           this.props.match.params.id
       )
       .then(result => {
-        console.log(result.data[0]);
+        console.log(result.data);
         return result;
       });
 

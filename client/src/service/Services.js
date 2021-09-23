@@ -14,7 +14,7 @@ class Services extends Component {
     const response = await axios
       .get("http://localhost:5000/courses")
       .then(result => {
-        console.log(result.data[0]);
+        console.log(result.data);
         return result;
       });
 
