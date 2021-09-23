@@ -137,12 +137,12 @@ export default class AddCourse extends Component {
                     value={this.state.category}
                   >
                     {this.CatList()}
-                    <option value="Mobile Development">Android Development</option>
+                    {/* <option value="Mobile Development">Android Development</option>
                     <option value="Fullstack Development">Web Development</option>
                     <option value="Flutter Development">Native Development</option>
                     <option value="Android Development">Flutter Development</option>
                     <option value="Web Development">MERN Learning</option>
-                    <option value="Web Development">React Development</option>
+                    <option value="Web Development">React Development</option> */}
                   </select>
                 </div>
                 <p>{message}</p>
