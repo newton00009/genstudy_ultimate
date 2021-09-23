@@ -30,11 +30,7 @@ class ServiceTabExample extends Component {
     let serviceTabContentData = [
       {
         bgUrl: "service-tab1.png",
-<<<<<<< HEAD
         contentTitle: "MERN Stack Bootcamp - Zero to Hero in One Course",
-=======
-        contentTitle: "Modern React with Redux",
->>>>>>> f1c40231aff50d4d92ecdced959b7dda41634741
         contentDesc:
           "Lorem ipsum dolor sit amet, consectet adipisicin elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         serviceLink: "service-details-left-sidebar"
@@ -48,11 +44,7 @@ class ServiceTabExample extends Component {
       },
       {
         bgUrl: "service-tab1.png",
-<<<<<<< HEAD
         contentTitle: "The Complete React Native Course",
-=======
-        contentTitle: "JavaScript: Understanding the Weird Parts",
->>>>>>> f1c40231aff50d4d92ecdced959b7dda41634741
         contentDesc:
           "Lorem ipsum dolor sit amet, consectet adipisicin elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         serviceLink: "service-details-left-sidebar"

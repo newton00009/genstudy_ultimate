@@ -34,50 +34,32 @@ class ServiceGridSlider extends Component {
     let data = [
       {
         img: "service1.jpg",
-<<<<<<< HEAD
         serviceTitle: "The Complete React Native Course",
-=======
-        serviceTitle: "React - The Complete Guide (incl Hooks, Redux)",
->>>>>>> f1c40231aff50d4d92ecdced959b7dda41634741
         serviceExcerpt:
           "Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor",
         serviceUrl: "service-details-left-sidebar"
       },
       {
-<<<<<<< HEAD
+
         /* Node js */
         img: "service2.png",
         serviceTitle: "NodeJS - The Complete Guide (MVC, REST APIs, GraphQL, Deno)",
-=======
-        img: "service2.png",
-        serviceTitle: "The Complete React Native Course",
->>>>>>> f1c40231aff50d4d92ecdced959b7dda41634741
         serviceExcerpt:
           "Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor",
         serviceUrl: "service-details-left-sidebar"
       },
       {
-<<<<<<< HEAD
         /* MERN */
         img: "service3.jpeg",
         serviceTitle: "MERN Stack Bootcamp - Zero to Hero in One Course",
-=======
-        img: "service3.jpeg",
-        serviceTitle: "JavaScript: Understanding the Weird Parts",
->>>>>>> f1c40231aff50d4d92ecdced959b7dda41634741
         serviceExcerpt:
           "Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor",
         serviceUrl: "service-details-left-sidebar"
       },
       {
-<<<<<<< HEAD
         /* MEAN */
         img: "service4.jpg",
         serviceTitle: "Complete MEAN Stack Developer Guide: MongoDB; Express;Angular;Node",
-=======
-        img: "service4.jpg",
-        serviceTitle: "MongoDB - The Complete Developer Guide",
->>>>>>> f1c40231aff50d4d92ecdced959b7dda41634741
         serviceExcerpt:
           "Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor",
         serviceUrl: "service-details-left-sidebar"
