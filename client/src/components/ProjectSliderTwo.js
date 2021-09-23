@@ -40,21 +40,21 @@ class ServiceGridSlider extends Component {
         serviceUrl: "service-details-left-sidebar"
       },
       {
-        img: "service2.jpg",
+        img: "service2.png",
         serviceTitle: "The Complete React Native Course",
         serviceExcerpt:
           "Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor",
         serviceUrl: "service-details-left-sidebar"
       },
       {
-        img: "service3.jpg",
+        img: "service3.jpeg",
         serviceTitle: "JavaScript: Understanding the Weird Parts",
         serviceExcerpt:
           "Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor",
         serviceUrl: "service-details-left-sidebar"
       },
       {
-        img: "service1.jpg",
+        img: "service4.jpg",
         serviceTitle: "MongoDB - The Complete Developer Guide",
         serviceExcerpt:
           "Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor",
