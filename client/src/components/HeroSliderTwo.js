@@ -92,7 +92,11 @@ class HeroSliderOne extends Component {
                         href={`${process.env.PUBLIC_URL}/${val.btnLink}`}
                       >
                         {" "}
+<<<<<<< HEAD
                         GET STARTED
+=======
+                        GET START
+>>>>>>> f1c40231aff50d4d92ecdced959b7dda41634741
                       </a>
                     </div>
                   </div>

@@ -21,12 +21,17 @@ class TestimonialSlider extends Component {
     let data = [
       {
         testimonialImage: "1.jpg",
+<<<<<<< HEAD
         testimonialName: "Prasham Bhagwat",
+=======
+        testimonialName: "Apurva Savaj",
+>>>>>>> f1c40231aff50d4d92ecdced959b7dda41634741
         testimonialDesignation: "Founder",
         testimonialText:
           "Lorem ipsum dolor sit amet, consectetur adipisi elit sed do eiusmod tempor incididu ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco"
       },
       {
+<<<<<<< HEAD
         testimonialImage: "2.jpg",
         testimonialName: "Nilesh Verma",
         testimonialDesignation: "CFO",
@@ -54,6 +59,21 @@ class TestimonialSlider extends Component {
         testimonialText:
           "Lorem ipsum dolor sit amet, consectetur adipisi elit sed do eiusmod tempor incididu ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco"
       },
+=======
+        testimonialImage: "3.jpg",
+        testimonialName: "Aman Singh",
+        testimonialDesignation: "Engineer",
+        testimonialText:
+          "Ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco Lorem ipsum dolor sit amet."
+      },
+      {
+        testimonialImage: "2.jpg",
+        testimonialName: "Aananya Pandey",
+        testimonialDesignation: "CEO",
+        testimonialText:
+          "consectetur adipisi elit sed do eiusmod tempor incididu ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco"
+      }
+>>>>>>> f1c40231aff50d4d92ecdced959b7dda41634741
     ];
 
     let DataList = data.map((val, i) => {
