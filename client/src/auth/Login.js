@@ -73,7 +73,7 @@ class Login extends Component {
                       width="60px"
                       className="sticky-logo img-fluid"
                     />
-                    <h3>KnowHow</h3>
+                    <h3>Genstudy</h3>
                   </div>
                   <h4 className="mb-3 f-w-400">Login into your account</h4>
 
