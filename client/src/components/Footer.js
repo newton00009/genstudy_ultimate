@@ -27,9 +27,7 @@ class Footer extends Component {
                           </a>
                         </div>
                         <div className="footer-desc">
-                          Lorem ipsum dolor sit amet consect adipisici elit, sed
-                          do eiusmod tempor incididuk ut labore et dolore magna
-                          aliqua Ut enim
+                          Online platform for free learning.
                         </div>
                       </div>
                     </div>
@@ -95,17 +93,17 @@ class Footer extends Component {
                         <h4 className="footer-widget__title">CONTACT US</h4>
                         <div className="footer-widget__content">
                           <p className="address">
-                            Your address goes here, street Crossroad123.
+                            Tech Street, bug lane ,123.
                           </p>
                           <ul className="contact-details">
                             <li>
-                              <span>P:</span>99 55 66 88 526
+                              <span>P:</span>99 55 99 55 595
                             </li>
                             <li>
-                              <span>F:</span>55 44 77 62
+                              <span>F:</span>55 44 33 69
                             </li>
                             <li>
-                              <span>E:</span>cons@email.com
+                              <span>E:</span>genstudy@email.com
                             </li>
                           </ul>
                         </div>
@@ -118,7 +116,7 @@ class Footer extends Component {
           </div>
           <div className="footer-copyright-wrapper">
             <div className="footer-copyright text-center">
-              Copyright © 2019. All right reserved
+              Copyright © 2021 | Re/Syst | All right reserved
             </div>
           </div>
         </div>
