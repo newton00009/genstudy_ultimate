@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
+//import { Link } from "react-router-dom";
 import axios from "axios";
 import NavBar from "../components/NavBar";
-import { ToastContainer, toast } from "react-toastify";
+import { toast } from "react-toastify";
 import "./admin.css";
 
 export default class EnrollList extends Component {

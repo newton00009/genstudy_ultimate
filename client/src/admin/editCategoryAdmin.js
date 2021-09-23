@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
+//import { Link } from "react-router-dom";
 import NavBar from "../components/NavBar";
 import axios from "axios";
 
@@ -55,7 +55,7 @@ export default class CatEdit extends Component {
 
   render() {
     // const menuClass = `dropdown-menu${this.state.isOpen ? " show" : ""}`;
-    var message = "You selected " + this.state.todos.role;
+   // var message = "You selected " + this.state.todos.role;
     return (
       <div>
         <NavBar />

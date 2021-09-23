@@ -4,7 +4,7 @@ import CanvasJSReact from "../canvas/canvasjs.react"
 
 import axios from "axios";
 
-var CanvasJS = CanvasJSReact.CanvasJS;
+//var CanvasJS = CanvasJSReact.CanvasJS;
 var CanvasJSChart = CanvasJSReact.CanvasJSChart;
 
 var dd=[];
@@ -24,7 +24,7 @@ class Dashboard extends Component {
 				dd=[];
 				response.data.forEach(element => {
 					//console.log(element);
-					if( dict[element.instructor.email] == undefined){
+					if( dict[element.instructor.email] === undefined){
 						dict[element.instructor.email] = 1;
 					}
 					else{
@@ -45,7 +45,7 @@ class Dashboard extends Component {
 
 				response.data.forEach(element => {
 					//console.log(element);label
-					if( dict[element.category.categoryName] == undefined){
+					if( dict[element.category.categoryName] === undefined){
 						dict[element.category.categoryName] = 1;
 					}
 					else{
@@ -74,7 +74,7 @@ class Dashboard extends Component {
 				dd=[];
 				response.data.forEach(element => {
 					//console.log(element);
-					if( dict[element.course.courseName] == undefined){
+					if( dict[element.course.courseName] === undefined){
 						dict[element.course.courseName] = 1;
 					}
 					else{
