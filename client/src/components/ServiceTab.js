@@ -29,28 +29,28 @@ class ServiceTabExample extends Component {
 
     let serviceTabContentData = [
       {
-        bgUrl: "service-tab1.jpg",
+        bgUrl: "service-tab1.png",
         contentTitle: "Modern React with Redux",
         contentDesc:
           "Lorem ipsum dolor sit amet, consectet adipisicin elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         serviceLink: "service-details-left-sidebar"
       },
       {
-        bgUrl: "service-tab1.jpg",
+        bgUrl: "service-tab1.png",
         contentTitle: "The Complete React Native Course",
         contentDesc:
           "Lorem ipsum dolor sit amet, consectet adipisicin elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         serviceLink: "service-details-left-sidebar"
       },
       {
-        bgUrl: "service-tab1.jpg",
+        bgUrl: "service-tab1.png",
         contentTitle: "JavaScript: Understanding the Weird Parts",
         contentDesc:
           "Lorem ipsum dolor sit amet, consectet adipisicin elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         serviceLink: "service-details-left-sidebar"
       },
       {
-        bgUrl: "service-tab1.jpg",
+        bgUrl: "service-tab1.png",
         contentTitle: "MongoDB - The Complete Developer Guide",
         contentDesc:
           "Lorem ipsum dolor sit amet, consectet adipisicin elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
