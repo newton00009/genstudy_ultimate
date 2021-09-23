@@ -7,7 +7,7 @@ import Spinner from "../common/Spinner";
 import ProfileActions from "./ProfileActions";
 import Experience from "./Experience";
 import Education from "./Education";
-import NavBar from "../../components/NavBar";
+//import NavBar from "../../components/NavBar";
 
 class Dashboard extends Component {
   componentDidMount() {
@@ -19,7 +19,7 @@ class Dashboard extends Component {
   }
 
   render() {
-    const { user } = this.props.auth;
+    //const { user } = this.props.auth;
     const { profile, loading } = this.props.profile;
     console.log(profile);
     let dashboardContent;

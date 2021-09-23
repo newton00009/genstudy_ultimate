@@ -118,7 +118,7 @@ export default class CreateUser extends Component {
 
     // JSX code which is needed to display the form
     render() {
-        var message='You selected '+this.state.role
+     //   var message='You selected '+this.state.role
         return (
             <div>
                 <NavBar />
