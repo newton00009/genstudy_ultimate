@@ -30,7 +30,14 @@ class HeroSliderOne extends Component {
 
     let data = [
       {
-        bgImg: "crowsel3.jpg",
+        bgImg: "crowsel0.jpg",
+        sliderTitle: "Build Your Dream With Passion",
+        sliderSubtitle:
+          "Learn, Code and start developing your own beautiful websites at no cost.",
+        btnLink: "contact-us"
+      },
+      {
+        bgImg: "crowsel1.jpg",
         sliderTitle: "Build Your Dream With Passion",
         sliderSubtitle:
           "Learn, Code and start developing your own beautiful websites at no cost.",
@@ -44,7 +51,21 @@ class HeroSliderOne extends Component {
         btnLink: "contact-us"
       },
       {
-        bgImg: "crowsel0.jpg",
+        bgImg: "crowsel3.jpg",
+        sliderTitle: "Build Your Dream With Passion",
+        sliderSubtitle:
+          "Learn, Code and start developing your own beautiful websites at no cost.",
+        btnLink: "contact-us"
+      },
+      {
+        bgImg: "crowsel4.jpg",
+        sliderTitle: "Build Your Dream With Passion",
+        sliderSubtitle:
+          "Learn, Code and start developing your own beautiful websites at no cost.",
+        btnLink: "contact-us"
+      },
+      {
+        bgImg: "crowsel5.jpg",
         sliderTitle: "Build Your Dream With Passion",
         sliderSubtitle:
           "Learn, Code and start developing your own beautiful websites at no cost.",
