@@ -17,7 +17,7 @@ File: style.css
       Custom css start
 ==========================  **/
 body {
-  font-family: "Mada", sans-serif;
+  font-family: "Lucida Console", "Courier New", monospace;
   font-size: 14px;
   color: #686c71;
   font-weight: 400;
