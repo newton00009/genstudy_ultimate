@@ -27,28 +27,28 @@ class TestimonialSlider extends Component {
           "Lorem ipsum dolor sit amet, consectetur adipisi elit sed do eiusmod tempor incididu ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco"
       },
       {
-        testimonialImage: "2.jpg",
+        testimonialImage: "2.png",
         testimonialName: "Nilesh Verma",
         testimonialDesignation: "CFO",
         testimonialText:
           "Ut labore et dolore magna aliqLorem ipsum dolor sit amet, consectetur adipisi elit sed do eiusmod tempor incididu ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamcoua. Ut enim ad minim veniam, quis nostrud exercitation ullamco Lorem ipsum dolor sit amet."
       },
       {
-        testimonialImage: "2.jpg",
+        testimonialImage: "0.png",
         testimonialName: "Ayush Kumar",
         testimonialDesignation: "CEO",
         testimonialText:
           "consectetur adipisi elit sed do Lorem ipsum dolor sit amet, consectetur adipisi elit sed do eiusmod tempor incididu ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamcoeiusmod tempor incididu ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco"
       },
       {
-        testimonialImage: "3.jpg",
+        testimonialImage: "3.png",
         testimonialName: "Krishnash Singh",
         testimonialDesignation: "Engineer",
         testimonialText:
           "Lorem ipsum dolor sit amet, consectetur adipisi elit sed do eiusmod tempor incididu ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco"
       },
       {
-        testimonialImage: "3.jpg",
+        testimonialImage: "1.png",
         testimonialName: "Jagrit Sarma",
         testimonialDesignation: "Engineer",
         testimonialText:
