@@ -20,7 +20,7 @@ class TestimonialSlider extends Component {
     };
     let data = [
       {
-        testimonialImage: "1.jpg",
+        testimonialImage: "4.png",
         testimonialName: "Prasham Bhagwat",
         testimonialDesignation: "Founder",
         testimonialText:

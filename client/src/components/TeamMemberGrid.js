@@ -6,7 +6,7 @@ class TeamMemberGrid extends Component {
 
     let data = [
       {
-        profileImage: "team-1.jpg",
+        profileImage: "2.png",
         profileTitle: "Nilesh Verma",
         profileDesignation: "Team Member 1",
         profileEmail: "nilesh@genstudy.com",
