@@ -2,8 +2,8 @@ import React, {Component} from "react";
 import ReactDOM from "react-dom";
 // import "./style.css";
 import questionAPI from './quiz/question/flutter';
-import QuestionBox from './quiz/components/QuestionBox';
-import Result from './quiz/components/ResultBox';
+import QuestionBox from './quiz/components/questionBox';
+import Result from './quiz/components/resultBox';
   
 class Quiz extends Component {
   constructor() {
