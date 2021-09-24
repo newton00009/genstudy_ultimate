@@ -11,7 +11,7 @@ class Footer extends Component {
               <div className="col-lg-12">
                 <div className="footer-content-wrapper section-space--inner--100">
                   <div className="row">
-                    <div className="col-xl-3 col-lg-3 col-md-12">
+                    <div className="col-xl-4 col-lg-4 col-md-20">
                       {/* footer intro wrapper */}
                       <div className="footer-intro-wrapper">
                         <div className="footer-logo">
@@ -27,11 +27,11 @@ class Footer extends Component {
                           </a>
                         </div>
                         <div className="footer-desc">
-                          Online platform for free learning.
+                          Online platform for making E-learning more confortable and interactive.
                         </div>
                       </div>
                     </div>
-                    <div className="col-xl-2 offset-xl-1 col-lg-3 col-md-4">
+                    <div className="col-xl-3 offset-xl-1 col-lg-4 col-md-8">
                       {/* footer widget */}
                       <div className="footer-widget">
                         <h4 className="footer-widget__title">USEFUL LINKS</h4>
@@ -60,50 +60,22 @@ class Footer extends Component {
                     </div>
                     <div className="col-xl-2 offset-xl-1 col-lg-3 col-md-4">
                       {/* footer widget */}
-                      <div className="footer-widget">
-                        <h4 className="footer-widget__title">USEFUL LINKS</h4>
-                        <ul className="footer-widget__navigation">
-                          <li>
-                            <a href={`${process.env.PUBLIC_URL}/`}>
-                              Our Services
-                            </a>
-                          </li>
-                          <li>
-                            <a href={`${process.env.PUBLIC_URL}/`}>Showcase</a>
-                          </li>
-                          <li>
-                            <a href={`${process.env.PUBLIC_URL}/`}>Affliates</a>
-                          </li>
-                          <li>
-                            <a href={`${process.env.PUBLIC_URL}/`}>
-                              Disclaimer
-                            </a>
-                          </li>
-                          <li>
-                            <a href={`${process.env.PUBLIC_URL}/`}>
-                              Privacy Policy
-                            </a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                    <div className="col-xl-2 offset-xl-1 col-lg-3 col-md-4">
-                      {/* footer widget */}
                       <div className="footer-widget mb-0">
                         <h4 className="footer-widget__title">CONTACT US</h4>
                         <div className="footer-widget__content">
                           <p className="address">
-                            Tech Street, bug lane ,123.
+                            123 Any Street,
+                            Bakersfield, CA 93399
                           </p>
                           <ul className="contact-details">
                             <li>
-                              <span>P:</span>99 55 99 55 595
+                              <span>Phone no.:</span>99 55 99 55 59
                             </li>
                             <li>
-                              <span>F:</span>55 44 33 69
+                              <span>Fax no.:</span>55 44 33 69
                             </li>
                             <li>
-                              <span>E:</span>genstudy@email.com
+                              <span>E-mail:</span>genstudy@email.com
                             </li>
                           </ul>
                         </div>
