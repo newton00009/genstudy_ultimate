@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import axios from "axios";
 import NavBar from "../components/NavBar";
 import { ToastContainer, toast } from "react-toastify";
@@ -69,7 +69,8 @@ export default class UserList extends Component {
           <td>{props.todo.courseName}</td>
           <td>{props.todo.courseDescription}</td>
           <td>{props.todo.instructor.email}</td>
-          <td>{props.todo.category.categoryName}</td>
+          {/* <td>{props.todo.category.categoryName}</td> */}
+          
           <td>
             {/* <Link to={"users/edit/"+props.todo._id}>Edit</Link> */}
             {/* <button className="button muted-button" class="btn btn-success"><Link to={"users/edit/"+props.todo._id}>Edit</Link></button> */}
@@ -81,7 +82,8 @@ export default class UserList extends Component {
             >
               Edit
             </a>
-            {/* <button onClick={this.delete.bind(this, props.todo._id)} class="btn btn-danger">Delete</button> */}
+            
+            <button onClick={this.delete.bind(this, props.todo._id)} class="btn btn-danger">Delete</button>
             {/* <p>{message}</p> */}
           </td>
         </tr>
@@ -142,7 +144,7 @@ export default class UserList extends Component {
                 <th>Course Title</th>
                 <th>Course Description</th>
                 <th>Instructor</th>
-                <th>Category</th>
+                {/* <th>Category</th> */}
 
                 <th>Action</th>
               </tr>

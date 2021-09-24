@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-//import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import axios from "axios";
 import NavBar from "../components/NavBar";
 import { toast } from "react-toastify";
@@ -66,10 +66,10 @@ export default class EnrollList extends Component {
           <td>{props.todo.student.email}</td>
           <td>{props.todo.course.courseName}</td>
           <td>
-            {/* <Link to={"users/edit/"+props.todo._id}>Edit</Link> */}
-            {/* <button className="button muted-button" class="btn btn-success"><Link to={"users/edit/"+props.todo._id}>Edit</Link></button> */}
-            {/* <a href={"showcourses/edit/"+props.todo._id} class="btn btn-primary btn active" role="button" aria-pressed="true">Delete</a> */}
-            {/* <link to='' refresh="true"> */}
+              {/* <Link to={"users/edit/"+props.todo._id}>Edit</Link> */}
+              {/* <button className="button muted-button" class="btn btn-success"><Link to={"users/edit/"+props.todo._id}>Edit</Link></button> */}
+              {/* <a href={"showcourses/edit/"+props.todo._id} class="btn btn-primary btn active" role="button" aria-pressed="true">Delete</a> */}
+              {/* <link to='' refresh="true"> */}
             <button
               onClick={this.delete.bind(this, props.todo._id)}
               class="btn btn-danger"

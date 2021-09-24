@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import NavBar from "../components/NavBar";
 import axios from "axios";
-//import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const ShowUser = props => (
   <option selected="selected" key={props.todo.email} value={props.todo.email}>
@@ -97,11 +97,11 @@ export default class CreateEnroll extends Component {
     });
 
     // Reset the Values.
-    this.setState({
-      student: "",
-      course: "",
-      todo_completed: false
-    });
+    // this.setState({
+    //   student: "",
+    //   course: "",
+    //   todo_completed: false
+    // });
   }
 
   // JSX code which is needed to display the form
@@ -115,9 +115,9 @@ export default class CreateEnroll extends Component {
           <div className="row">
             <div className="col-md-6 mt-5 mx-auto">
               <form onSubmit={this.onSubmit}>
-                {/* <Link to="/" className="btn btn-light">Go Back</Link>
+                <Link to="/" className="btn btn-light">Go Back</Link>
                             <br/>
-                            <br/> */}
+                            <br/>
                 <h1
                   className="h3 mb-3 font-weight-bold"
                   style={{ textDecoration: "underline" }}
