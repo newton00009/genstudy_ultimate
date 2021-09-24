@@ -1,7 +1,7 @@
 # E-Learning-MERN
 It is a E-Learning website which provides functionality of registering in any course and watch its related videos and many other features such as Admin Panel, Instructors related functions etc. 
 
-<img src="img/Genstudy - E-Learning Portal.png">
+<!-- <img src="img/Genstudy - E-Learning Portal.png"> -->
 
 ---
 
@@ -44,55 +44,55 @@ npm run prod
 
 ## Instructor's Portal
 
-<img src="img/login_i.png">
+<!-- <img src="img/login_i.png"> -->
 
 ---
 
-<img src="img/g.png">
+<!-- <img src="img/g.png"> -->
 
 ---
 
-<img src="img/e.png">
+<!-- <img src="img/e.png"> -->
 
 ---
 
-<img src="img/d.png">
+<!-- <img src="img/d.png"> -->
 
 ---
 
 ## Student's Portal
 
-<img src="img/b.png">
+<!-- <img src="img/b.png"> -->
 
 ---
 
-<img src="img/abc.png">
+<!-- <img src="img/abc.png"> -->
 
 ---
 
-<img src="img/cc.png">
+<!-- <img src="img/cc.png"> -->
 
 ---
 
 ## Admin Portal
 
-<img src="img/aaa.png">
+<!-- <img src="img/aaa.png"> -->
 
 ---
 
-<img src="img/bbb.png">
+<!-- <img src="img/bbb.png"> -->
 
 ---
 
-<img src="img/ccc.png">
+<!-- <img src="img/ccc.png"> -->
 
 ---
 
-<img src="img/ddd.png">
+<!-- <img src="img/ddd.png"> -->
 
 ---
 
-<img src="img/eee.png">
+<!-- <img src="img/eee.png"> -->
 
 ---
 
