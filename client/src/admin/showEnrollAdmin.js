@@ -28,13 +28,13 @@ export default class EnrollList extends Component {
       })
       .catch(function(error) {
         console.log(error);
-      });
+      })
   }
 
   delete(id) {
     console.log(id);
     axios
-      .delete("http://localhost:5000/enrollment/" + id)
+      .delete("https://localhost:5000/enrollment?id" + id)
       .then(result => {
         this.forceUpdate()
 
