@@ -82,6 +82,8 @@ export default class EnrollList extends Component {
       </div>
     );
     //used in filtering the content coming from database mongo
+ console.log(this.state)
+
     let filteredusers = this.state.todos.filter(enroll => {
       return (
         enroll.student.email.indexOf(this.state.search) !== -1 ||
