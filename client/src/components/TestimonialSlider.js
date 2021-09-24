@@ -22,37 +22,32 @@ class TestimonialSlider extends Component {
       {
         testimonialImage: "4.png",
         testimonialName: "Prasham Bhagwat",
-        testimonialDesignation: "Founder",
         testimonialText:
-          "Lorem ipsum dolor sit amet, consectetur adipisi elit sed do eiusmod tempor incididu ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco"
+          "One of the best places to Learn Web Development. The links and the quizes the provide are very effective for making concepts clear."
       },
       {
         testimonialImage: "2.png",
         testimonialName: "Nilesh Verma",
-        testimonialDesignation: "CFO",
         testimonialText:
-          "Ut labore et dolore magna aliqLorem ipsum dolor sit amet, consectetur adipisi elit sed do eiusmod tempor incididu ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamcoua. Ut enim ad minim veniam, quis nostrud exercitation ullamco Lorem ipsum dolor sit amet."
+          "Genstudy is a great example to show why E-learing is the upcoming mode of education now a days."
       },
       {
         testimonialImage: "0.png",
         testimonialName: "Ayush Kumar",
-        testimonialDesignation: "CEO",
         testimonialText:
-          "consectetur adipisi elit sed do Lorem ipsum dolor sit amet, consectetur adipisi elit sed do eiusmod tempor incididu ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamcoeiusmod tempor incididu ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco"
+          "The courses cover in depth portion of the topics that are taught in them. The tagline really come to reality."
       },
       {
         testimonialImage: "3.png",
         testimonialName: "Krishnash Singh",
-        testimonialDesignation: "Engineer",
         testimonialText:
-          "Lorem ipsum dolor sit amet, consectetur adipisi elit sed do eiusmod tempor incididu ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco"
+          "Best E-learning platform for Beginners."
       },
       {
         testimonialImage: "1.png",
         testimonialName: "Jagrit Sarma",
-        testimonialDesignation: "Engineer",
         testimonialText:
-          "Lorem ipsum dolor sit amet, consectetur adipisi elit sed do eiusmod tempor incididu ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco"
+          "UI of the site is great. Content of the courses and the resources provided was really very helpful,"
       }
     ];
 
