@@ -43,7 +43,7 @@ export default class UserEdit extends Component {
 
     RoleList() {
       return this.state.Roles.map(function(currentTodo, i){
-          //  console.log(currentTodo.categoryName)
+          console.log(currentTodo.categoryName)
           return <ShowRole todo={currentTodo} key={i} />;
 
       })
@@ -122,11 +122,14 @@ export default class UserEdit extends Component {
                             className="form-control" name="role"
                             id="ada"
                             onChange={this.onChange}
-                            value={this.state.todos.role} 
-                            >
-                                {this.RoleList()}
+                            value={this.state.todos.role} >
+                                <option value="admin">admin</option>
+                                <option value="instructor">instructor</option>
+                                <option value="student">student</option>
+                            
+                                {/* {this.RoleList()} */}
                               
-                                
+                            
                             </select>
                             <p>{message}</p>
                             </div>
