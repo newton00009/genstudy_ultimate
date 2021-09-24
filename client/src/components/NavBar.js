@@ -56,7 +56,7 @@ class NavBar extends Component {
                                   alt=""
                                   className="sticky-logo img-fluid"
                                 />
-                                <h3>Genstudy</h3>
+                                <h3>GenStudy</h3>
                               </div>
                             </a>
 
@@ -222,7 +222,7 @@ class NavBar extends Component {
         </li>
         <li>
           <Link className="nav-link" to="/login/instructor">
-            Teach On Genstudy
+            Teach On GenStudy
           </Link>
         </li>
       </React.Fragment>
@@ -347,3 +347,4 @@ export default connect(
   mapStateToProps,
   { logoutUser }
 )(NavBar);
+
