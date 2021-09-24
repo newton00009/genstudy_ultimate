@@ -5,12 +5,16 @@ import { Progress } from "reactstrap";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
+
 const ShowCourse = props => (
   <option key={props.todo.courseName} value={props.todo.courseName}>
     {props.todo.courseName}
+    
   </option>
   // <button type="button" class="list-group-item list-group-item-action">{props.todo.courseName}</button>
 );
+
+
 export default class Upload extends Component {
   constructor(props) {
     super(props);
@@ -21,15 +25,19 @@ export default class Upload extends Component {
       Courses: [],
       course: "",
       title: "",
+      nc:"",
       ImageUrl:""
     };
     this.onChangeCourse = this.onChangeCourse.bind(this);
     this.onChangeTitle = this.onChangeTitle.bind(this);
     this.onChangeYouTubeLink = this.onChangeYouTubeLink.bind(this);
     this.onChangeImageUrl = this.onChangeImageUrl.bind(this);
+    this.onChangenc = this.onChangenc.bind(this);
   }
 
+
   componentDidMount() {
+ //   console.log(this.state);
     axios
       .get(
         "http://localhost:5000/coursebyinstructor?id=" +
@@ -43,6 +51,7 @@ export default class Upload extends Component {
         console.log(error);
       });
   }
+ 
 
   CourseList() {
     return this.state.Courses.map(function(currentTodo, i) {
@@ -68,6 +77,13 @@ export default class Upload extends Component {
       ImageUrl: e.target.value
     });
   }
+
+  onChangenc(e) {
+    this.setState({
+      nc: e.target.value
+    });
+  }
+
 
   onChangeYouTubeLink(e) {
     this.setState({
@@ -154,6 +170,7 @@ export default class Upload extends Component {
     }
 
     data.append("imageUrl", this.state.ImageUrl);
+    data.append("newcourse", this.state.nc);
 
     console.log(data);
     axios
@@ -201,9 +218,8 @@ export default class Upload extends Component {
                       className="form-control"
                       name="course"
                       id="ada"
+                      onChange={this.onChangenc}
                       value={this.state.course}
-                      onChange={this.onChangeCourse}
-                      
                     >
                       {this.CourseList()}
                     </select>

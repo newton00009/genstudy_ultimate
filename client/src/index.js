@@ -37,6 +37,7 @@ import PageNotFound from "./pages/404";
 import NoMAtch from "./pages/404";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import * as serviceWorker from "./serviceWorker";
+import Quiz from "./components/Quiz"
 
 import PrivateRoute from "./components/common/PrivateRoute";
 //actions
@@ -52,6 +53,7 @@ import AddEducation from "./components/add-credentials/AddEducation";
 import Profile from "./components/profile/Profile";
 import FinalDashboard from "./components/FinalDashboard";
 import FinalProfiles from "./components/FinalProfiles";
+import quiz from "./components/Quiz";
 
 //check for token  to avoid state destroy on reload
 if (localStorage.jwtToken) {
@@ -182,6 +184,12 @@ class Root extends Component {
               exact
               path={`${process.env.PUBLIC_URL}/createEnrollAdmin`}
               component={CreateEnrollAdmin}
+            />
+
+            <Route
+              exact
+              path={`${process.env.PUBLIC_URL}/quiz`}
+              component={Quiz}
             />
              <Route
               exact
