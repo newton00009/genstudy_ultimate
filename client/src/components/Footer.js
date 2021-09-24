@@ -22,7 +22,7 @@ class Footer extends Component {
                                 alt=""
                                 className="sticky-logo img-fluid"
                               />
-                              <h3>Genstudy</h3>
+                              <h3>GenStudy</h3>
                             </div>
                           </a>
                         </div>
