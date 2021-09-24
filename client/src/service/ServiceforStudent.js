@@ -45,7 +45,7 @@ class Services extends Component {
                   }
                 >
                   <img
-                    src={val.course.courseImage}
+                    src={val.course.imageUrl}
                     className="img-fluid"
                     alt="Service Grid"
                   />

@@ -1,8 +1,25 @@
 import React, { Component } from "react";
 import Swiper from "react-id-swiper";
+import PropTypes from "prop-types";
+import { Link } from "react-router-dom";
+import { connect } from "react-redux";
+import { logoutUser } from "../actions/authActions";
+
+
+
 
 class ServiceGridSlider extends Component {
+  
+
+  
+  
   render() {
+
+
+
+
+
+
     const params = {
       slidesPerView: 3,
       loop: true,
@@ -37,7 +54,7 @@ class ServiceGridSlider extends Component {
         serviceTitle: "The Complete React Native Course",
         serviceExcerpt:
           "If you're tired of spinning your wheels learning Swift or Android, this is the course for you.This course will get you up and running with React Native quickly, and teach you the core knowledge you need to deeply understand and build React components for mobile devices.",
-        serviceUrl: "service-details-left-sidebar"
+        serviceUrl: "login/student"
       },
       {
 
@@ -46,7 +63,7 @@ class ServiceGridSlider extends Component {
         serviceTitle: "NodeJS - The Complete Guide (MVC, REST APIs, GraphQL, Deno)",
         serviceExcerpt:
           "Node.js is probably THE most popular and modern server-side programming language!Node.js developers are in high demand and the language is used for everything from traditional web apps with server-side rendered views over various API's real-time web services.",
-        serviceUrl: "service-details-left-sidebar"
+          serviceUrl: "login/student"
       },
       {
         /* MERN */
@@ -54,7 +71,7 @@ class ServiceGridSlider extends Component {
         serviceTitle: "MERN Stack Bootcamp - Zero to Hero in One Course",
         serviceExcerpt:
           "MERN stack stands for MongoDB Express React and Node.As a MERN stack developer, you will learn everything about backend frontend designing developing planning choosing the right infrastructure deploying and maintaining the project.",
-        serviceUrl: "service-details-left-sidebar"
+          serviceUrl: "login/student"
       },
       {
         /* MEAN */
@@ -62,7 +79,7 @@ class ServiceGridSlider extends Component {
         serviceTitle: "Complete MEAN Stack Developer Guide: MongoDB; Express;Angular;Node",
         serviceExcerpt:
           "This program will advance your career as a MEAN stack developer.You’ll learn top skills such as MongoDB, Express.js, Angular, and Node.js (“MEAN”), plus GIT, HTML&CSS, and JavaScript to build and deploy interactive applications.",
-        serviceUrl: "service-details-left-sidebar"
+          serviceUrl: "login/student"
       }
     ];
 
