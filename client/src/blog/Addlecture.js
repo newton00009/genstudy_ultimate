@@ -20,11 +20,13 @@ export default class Upload extends Component {
       loaded: 0,
       Courses: [],
       course: "",
-      title: ""
+      title: "",
+      ImageUrl:""
     };
     this.onChangeCourse = this.onChangeCourse.bind(this);
     this.onChangeTitle = this.onChangeTitle.bind(this);
     this.onChangeYouTubeLink = this.onChangeYouTubeLink.bind(this);
+    this.onChangeImageUrl = this.onChangeImageUrl.bind(this);
   }
 
   componentDidMount() {
@@ -58,6 +60,12 @@ export default class Upload extends Component {
   onChangeTitle(e) {
     this.setState({
       title: e.target.value
+    });
+  }
+
+  onChangeImageUrl(e) {
+    this.setState({
+      ImageUrl: e.target.value
     });
   }
 
@@ -145,6 +153,8 @@ export default class Upload extends Component {
       data.append("videoLink", this.state.youtubelink);
     }
 
+    data.append("imageUrl", this.state.ImageUrl);
+
     console.log(data);
     axios
       .post("http://localhost:5000/lectures/localupload", data, {
@@ -207,6 +217,16 @@ export default class Upload extends Component {
                       onChange={this.onChangeTitle}
                     />
                   </div>
+
+                  <div className="form-group">
+                  <label>Add Image URL </label>
+                  <input
+                    type="text"
+                    className="form-control"
+                    value={this.state.ImageUrl}
+                    onChange={this.onChangeImageUrl}
+                  />
+                </div>
 
                   <label>Upload Your File </label>
                   <input

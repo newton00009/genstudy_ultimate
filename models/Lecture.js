@@ -14,6 +14,10 @@ const LectureSchema = new Schema({
         type: String,
         required: true
     },
+    imageUrl: {
+        type: String,
+        required: true
+    },
     course : { type: Schema.Types.ObjectId, ref: 'Course' }
 }, { timestamps : { uploadedAt: 'created_at'}});
 

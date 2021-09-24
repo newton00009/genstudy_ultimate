@@ -18,12 +18,14 @@ export default class AddCourse extends Component {
       courseDescription: "",
       instructor: this.props.match.params.id,
       category: "",
-      todos: []
+      todos: [],
+      imageUrl:""
     };
     this.onChangeCourseName = this.onChangeCourseName.bind(this);
     this.onChangeDescription = this.onChangeDescription.bind(this);
     this.onChangeCategory = this.onChangeCategory.bind(this);
     this.onSubmit = this.onSubmit.bind(this);
+    this.onChangeImageUrl = this.onChangeImageUrl.bind(this);
   }
   componentDidMount() {
     //to get data from mongo link
@@ -60,6 +62,12 @@ export default class AddCourse extends Component {
     });
   }
 
+  onChangeImageUrl(e) {
+    this.setState({
+      imageUrl: e.target.value
+    });
+  }
+
   onChangeCategory(e) {
     this.setState({
       category: e.target.value
@@ -78,7 +86,8 @@ export default class AddCourse extends Component {
       courseName: this.state.courseName,
       courseDescription: this.state.courseDescription,
       instructor: this.props.match.params.id,
-      category: this.state.category
+      category: this.state.category,
+      imageUrl:this.state.imageUrl
       // todo_completed: this.state.todo_completed
     };
     axios
@@ -109,6 +118,20 @@ export default class AddCourse extends Component {
                     onChange={this.onChangeCourseName}
                   />
                 </div>
+                 
+                <div className="form-group">
+                  <label>Add Image URL </label>
+                  <input
+                    type="text"
+                    className="form-control"
+                    value={this.state.ImageUrl}
+                    onChange={this.onChangeImageUrl}
+                  />
+                </div>
+           
+
+
+
                 <div className="form-group">
                   <label>Description</label>
                   <textarea
