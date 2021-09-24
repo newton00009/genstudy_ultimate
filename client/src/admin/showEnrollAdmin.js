@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import axios from "axios";
 import NavBar from "../components/NavBar";
-import { ToastContainer,toast } from "react-toastify";
+import { toast } from "react-toastify";
 import "./admin.css";
 
 export default class EnrollList extends Component {
@@ -34,12 +34,12 @@ export default class EnrollList extends Component {
   delete(id) {
     console.log(id);
     axios
-      .delete("https://localhost:5000/enrollment?id" + id)
+      .delete("http://localhost:5000/enrollment?id=" + id)
       .then(result => {
-        this.forceUpdate()
+        // this.forceUpdate()
 
         toast.success("Deleted successfully");
-        this.props.history.push("/showenroll/")
+        // this.props.history.push("/showenroll/")
       })
       .catch(err => {
         // then print response status
@@ -50,6 +50,7 @@ export default class EnrollList extends Component {
       function() {
         window.location.reload();
       }.bind(this),
+      1300
     );
   }
 
@@ -58,36 +59,36 @@ export default class EnrollList extends Component {
     const divStyle = {
       display: "contents"
     };
-    var message='You selected '+this.state.todos._id
+    // var message='You selected '+this.state.todos._id
     const Todo = props => (
       <div style={divStyle}>
         <tr>
           <td>{props.todo.student.email}</td>
           <td>{props.todo.course.courseName}</td>
           <td>
-              <Link to={"users/edit/"+props.todo._id}>Edit</Link>
-              <button className="button muted-button" class="btn btn-success"><Link to={"users/edit/"+props.todo._id}>Edit</Link></button>
-              <a href={"showcourses/edit/"+props.todo._id} class="btn btn-primary btn active" role="button" aria-pressed="true">Delete</a>
-              <link to='' refresh="true">
+            {/* <Link to={"users/edit/"+props.todo._id}>Edit</Link>  */}
+            <button className="button muted-button" class="btn btn-success"><Link to={"users/edit/"+props.todo._id}>Edit</Link></button>
+            <a href={"showcourses/edit/"+props.todo._id} class="btn btn-primary btn active" role="button" aria-pressed="true">Delete</a>
+            {/* {/* <link to='' refresh="true"> */}
             <button
               onClick={this.delete.bind(this, props.todo._id)}
               class="btn btn-danger"
             >
               Delete
             </button>
-            </link>
+            {/* </link> */}
             {/* <p>{message}</p> */}
           </td>
         </tr>
       </div>
     );
     //used in filtering the content coming from database mongo
-    let filteredusers = this.state.todos.filter(enroll => {
-      return (
-        enroll.student.email.indexOf(this.state.search) !== -1 ||
-        enroll.course.courseName.indexOf(this.state.search) !== -1
-      );
-    });
+    // let filteredusers = this.state.todos.filter(enroll => {
+    //   return (
+    //     enroll.student.email.indexOf(this.state.search) !== -1 ||
+    //     enroll.course.courseName.indexOf(this.state.search) !== -1
+    //   );
+    // });
     return (
       <div>
         <NavBar />
@@ -108,7 +109,7 @@ export default class EnrollList extends Component {
           >
             Create Enrollment
           </a>{" "}
-          <br/>
+          <br />
           <h1
             style={{
               marginLeft: "-200px",
@@ -145,9 +146,9 @@ export default class EnrollList extends Component {
             </thead>
             <tbody>
               {/* displaying data coming  */}
-              {filteredusers.map(function(currentTodo, i) {
+              {/* {filteredusers.map(function(currentTodo, i) {
                 return <Todo todo={currentTodo} key={i} />;
-              })}
+              })} */}
             </tbody>
           </table>
         </div>

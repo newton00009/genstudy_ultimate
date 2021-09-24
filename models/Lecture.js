@@ -18,7 +18,13 @@ const LectureSchema = new Schema({
         type: String,
         required: true
     },
-    course : { type: Schema.Types.ObjectId, ref: 'Course' }
+    newcourse: {
+        type: String,
+        required: true
+    },
+    course: { type: Schema.Types.ObjectId, ref: "Course" },
+
+         
 }, { timestamps : { uploadedAt: 'created_at'}});
 
 module.exports = Lecture = mongoose.model('lectures',  LectureSchema)
