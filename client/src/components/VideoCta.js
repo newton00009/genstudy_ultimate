@@ -23,12 +23,11 @@ class VideoCta extends Component {
                 <div className="video-cta-content">
                   <h4 className="video-cta-content__small-title">ABOUT US</h4>
                   <h3 className="video-cta-content__title">
-                    Best E-learning Portal
+                    Why GenStudy Works
                   </h3>
                   <p className="video-cta-content__text">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim
+                  Created by experts, GenStudy’s library of trusted, standards-aligned practice and lessons covers almost everything for a student intrested in Web Development.
+                  Students can practice at their own pace, first filling in gaps in their understanding and then accelerating their learning. Lastly teachers can identify gaps in their students’ understanding, tailor instruction, and meet the needs of every student.
                   </p>
                   <a
                     href={`${process.env.PUBLIC_URL}/contact-us`}
