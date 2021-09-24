@@ -201,8 +201,9 @@ export default class Upload extends Component {
                       className="form-control"
                       name="course"
                       id="ada"
-                      onChange={this.onChangeCourse}
                       value={this.state.course}
+                      onChange={this.onChangeCourse}
+                      
                     >
                       {this.CourseList()}
                     </select>

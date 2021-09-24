@@ -49,10 +49,8 @@ class Quiz extends Component {
 
     render() {
             return ( < div className = "container" >
-                    <
-                    div className = "title" >
-                    QuizOn <
-                    /div>
+                    <div className = "title" >
+                    QuizOn </div>
 
                     {
                         this.state.questionBank.length > 0 &&
@@ -75,8 +73,7 @@ class Quiz extends Component {
                                             />): null
                                         }
 
-                                    <
-                                    /div>)
+                                    </div>)
                                 }
                             }
 
