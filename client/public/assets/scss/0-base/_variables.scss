@@ -1,7 +1,7 @@
 
 // project specific variables
 
-$theme-color--default: #3df02d;
+$theme-color--default: #0078d7;
 $theme-color--default--light: darken($theme-color--default, 10%);
 $theme-color--red1: #DE2021;
 $theme-color--red2: #D0021B;
@@ -20,9 +20,9 @@ $theme-color--black4: #313131;
 $transition--cubic:  all .3s cubic-bezier(.645,.045,.355,1);
 
 // Font Family
-$font-family-name: 'Roboto', sans-serif;
-$heading-font-family-name: 'Roboto', sans-serif;
-$poppins: 'Poppins', sans-serif;
+$font-family-name: 'Georgia',Times,Times New Roman,serif;
+$heading-font-family-name: 'Georgia',Times,Times New Roman,serif;
+$poppins: 'Verdana',Geneva,sans-serif;
 // Colors ---------------
 
 $white: #ffffff;

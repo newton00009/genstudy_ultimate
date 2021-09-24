@@ -37,7 +37,7 @@ class HeroSliderOne extends Component {
         btnLink: "contact-us"
       },
       {
-        bgImg: "crowsel1.jpg",
+        bgImg: "crowsel5.jpg",
         sliderTitle: "Discover a new way of learning",
         sliderSubtitle:
           "Learn, Code and Build your own websites.",
@@ -65,10 +65,10 @@ class HeroSliderOne extends Component {
         btnLink: "contact-us"
       },
       {
-        bgImg: "crowsel5.jpg",
-        sliderTitle: "Build Your Dream With Passion",
+        bgImg: "crowsel1.jpg",
+        sliderTitle: "Discover a new way of learning",
         sliderSubtitle:
-          "Learn, Code and start developing your own beautiful websites at no cost.",
+          "Learn, Code and Build your own websites.",
         btnLink: "contact-us"
       }
     ];
