@@ -70,7 +70,7 @@
 
             &:hover, &.active, &.react-tabs__tab--selected{
                 background-color: $theme-color--default;
-                color: $white;
+                color: $black;
                 border-radius: 0;
                 &:after{
                     visibility: visible;

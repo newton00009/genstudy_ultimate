@@ -21,24 +21,38 @@ class TestimonialSlider extends Component {
     let data = [
       {
         testimonialImage: "1.jpg",
-        testimonialName: "Apurva Savaj",
+        testimonialName: "Prasham Bhagwat",
         testimonialDesignation: "Founder",
         testimonialText:
           "Lorem ipsum dolor sit amet, consectetur adipisi elit sed do eiusmod tempor incididu ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco"
       },
       {
-        testimonialImage: "3.jpg",
-        testimonialName: "Aman Singh",
-        testimonialDesignation: "Engineer",
+        testimonialImage: "2.jpg",
+        testimonialName: "Nilesh Verma",
+        testimonialDesignation: "CFO",
         testimonialText:
-          "Ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco Lorem ipsum dolor sit amet."
+          "Ut labore et dolore magna aliqLorem ipsum dolor sit amet, consectetur adipisi elit sed do eiusmod tempor incididu ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamcoua. Ut enim ad minim veniam, quis nostrud exercitation ullamco Lorem ipsum dolor sit amet."
       },
       {
         testimonialImage: "2.jpg",
-        testimonialName: "Aananya Pandey",
+        testimonialName: "Ayush Kumar",
         testimonialDesignation: "CEO",
         testimonialText:
-          "consectetur adipisi elit sed do eiusmod tempor incididu ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco"
+          "consectetur adipisi elit sed do Lorem ipsum dolor sit amet, consectetur adipisi elit sed do eiusmod tempor incididu ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamcoeiusmod tempor incididu ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco"
+      },
+      {
+        testimonialImage: "3.jpg",
+        testimonialName: "Krishnash Singh",
+        testimonialDesignation: "Engineer",
+        testimonialText:
+          "Lorem ipsum dolor sit amet, consectetur adipisi elit sed do eiusmod tempor incididu ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco"
+      },
+      {
+        testimonialImage: "3.jpg",
+        testimonialName: "Jagrit Sarma",
+        testimonialDesignation: "Engineer",
+        testimonialText:
+          "Lorem ipsum dolor sit amet, consectetur adipisi elit sed do eiusmod tempor incididu ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco"
       }
     ];
 

@@ -28,7 +28,11 @@ class Contact extends Component{
                 </div>
                 {/*====================  End of breadcrumb area  ====================*/}
 
-                {/*====================  content page content ====================*/}
+                
+
+
+
+                {/*====================  conten page content ====================*/}
                 <div className="page-wrapper section-space--inner--120">
                 {/*Contact section start*/}
                 <div className="conact-section">
@@ -36,7 +40,8 @@ class Contact extends Component{
                     <div className="row section-space--bottom--50">
                         <div className="col">
                             <div className="contact-map">
-                            <iframe title="google-map" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d392436.93004030554!2d-105.13838587646829!3d39.7265847007123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1558429398879!5m2!1sen!2sbd" allowFullScreen></iframe>
+                            {/* <iframe title="google-map" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d392436.93004030554!2d-105.13838587646829!3d39.7265847007123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1558429398879!5m2!1sen!2sbd" allowFullScreen></iframe> */}
+                            <iframe title="google-map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15083.933850650452!2d72.8358602!3d19.0644647!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3c47bf391c8de931!2sThadomal%20Shahani%20Engineering%20College!5e0!3m2!1sen!2sin!4v1632401217722!5m2!1sen!2sin" allowfullscreen="" loading="lazy"></iframe>
                             </div>
                         </div>
                     </div>
@@ -47,7 +52,8 @@ class Contact extends Component{
                             <ul>
                                 <li>
                                     <span className="icon"><i className="ion-android-map" /></span>
-                                    <span className="text"><span>Stock Building, 125 Main Street 1st Lane, San Francisco, USA</span></span>
+                                    <span className="text"><span>W, P. G. Kher Marg, (32nd Road, Marg, Off Linking Rd, TPS III, Bandra West, Mumbai, Maharashtra 400050</span></span>
+
                                 </li>
                                 <li>
                                     <span className="icon"><i className="ion-ios-telephone-outline" /></span>
