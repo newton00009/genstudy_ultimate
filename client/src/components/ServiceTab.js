@@ -32,28 +32,28 @@ class ServiceTabExample extends Component {
         bgUrl: "service-tab1.png",
         contentTitle: "MERN Stack Bootcamp - Zero to Hero in One Course",
         contentDesc:
-          "Lorem ipsum dolor sit amet, consectet adipisicin elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "MERN stack stands for MongoDB Express React and Node.As a MERN stack developer, you will learn everything about backend frontend designing developing planning choosing the right infrastructure deploying and maintaining the project.",
         serviceLink: "service-details-left-sidebar"
       },
       {
         bgUrl: "service-tab1.png",
         contentTitle: "The Complete React Native Course",
         contentDesc:
-          "Lorem ipsum dolor sit amet, consectet adipisicin elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "If you're tired of spinning your wheels learning Swift or Android, this is the course for you.This course will get you up and running with React Native quickly, and teach you the core knowledge you need to deeply understand and build React components for mobile devices.",
         serviceLink: "service-details-left-sidebar"
       },
       {
         bgUrl: "service-tab1.png",
-        contentTitle: "The Complete React Native Course",
+        contentTitle: "NodeJS - The Complete Guide (MVC, REST APIs, GraphQL, Deno)",
         contentDesc:
-          "Lorem ipsum dolor sit amet, consectet adipisicin elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "Node.js is probably THE most popular and modern server-side programming language!Node.js developers are in high demand and the language is used for everything from traditional web apps with server-side rendered views over various API's real-time web services.",
         serviceLink: "service-details-left-sidebar"
       },
       {
         bgUrl: "service-tab1.png",
         contentTitle: "MongoDB - The Complete Developer Guide",
         contentDesc:
-          "Lorem ipsum dolor sit amet, consectet adipisicin elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "MongoDB is one of the most important NoSQL databases you can work with these days.It's extremely popular and MongoDB developers are in high demand.In this course, you'll learn all about MongoDB from scratch. No prior MongoDB or database experience is required!",
         serviceLink: "service-details-left-sidebar"
       }
     ];
