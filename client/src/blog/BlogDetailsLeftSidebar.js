@@ -66,13 +66,10 @@ class BlogDetailsLeftSidebar extends Component {
     }
 
     const response = await axios
-      .get("http://localhost:5000/lectures?id=" + this.props.match.params.id)
+      .get("http://localhost:5000/lectures?" + this.props.match.params.id)
       .then(result => {
         console.log(
-          "http://localhost:5000/checkenrollment?id=" +
-            this.state.user +
-            "&&courseid=" +
-            this.props.match.params.id
+          "http://localhost:5000/lectures?id=" + this.props.match.params.id
         );
         const responseEnrolled = axios
           .get(
@@ -172,7 +169,7 @@ class BlogDetailsLeftSidebar extends Component {
                     </h2>
                     <p>
                       {this.state.selectedVideo
-                        ? this.state.selectedVideo.course.courseDescription
+                        ? this.state.selectedVideo.course
                         : this.state.status}
                     </p>
                   </div>
