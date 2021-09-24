@@ -28,7 +28,7 @@ export default class EnrollList extends Component {
       })
       .catch(function(error) {
         console.log(error);
-      });
+      })
   }
 
   delete(id) {

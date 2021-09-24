@@ -1,6 +1,11 @@
+<<<<<<< HEAD
+import React from 'react';
+import "../style.css";
+=======
 
 import React from 'react';
 //import "../style.css";
+>>>>>>> 7f87e16b579c6f630976e39ebb47829b0b9de75b
   
 const Result = ({score, playAgain}) => (
   <div className="score-board">
