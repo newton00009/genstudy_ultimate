@@ -180,7 +180,10 @@ export default class CreateUser extends Component {
                             onChange={this.onChangeRole}
                             value={this.state.role} 
                             >
-                            {this.RoleList()}
+                                <option value="admin">admin</option>
+                                <option value="instructor">instructor</option>
+                                <option value="student">student</option>
+                            {/* {this.RoleList()} */}
                                 {/* <option value="Mobile Development">Android Development</option> */}
                                 
                             </select>                     
