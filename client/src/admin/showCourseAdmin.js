@@ -68,8 +68,8 @@ export default class UserList extends Component {
         <tr>
           <td>{props.todo.courseName}</td>
           <td>{props.todo.courseDescription}</td>
-          <td>{props.todo.instructor.email}</td>
-          {/* <td>{props.todo.category.categoryName}</td> */}
+          {/* <td>{props.todo.instructor.name}</td> */}
+          <td>{props.todo.categoryName}</td>
           
           <td>
             {/* <Link to={"users/edit/"+props.todo._id}>Edit</Link> */}
@@ -113,7 +113,7 @@ export default class UserList extends Component {
           <input type="hidden" />
           <h1
             style={{
-              marginLeft: "-200px",
+              marginLeft: "200px",
               textDecoration: "underline",
               color: "#F0542D"
             }}

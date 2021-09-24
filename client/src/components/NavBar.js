@@ -99,8 +99,8 @@ class NavBar extends Component {
                                 >
                                   <img
                                     src="https://img.icons8.com/external-wanicon-lineal-color-wanicon/64/000000/external-exit-hotel-wanicon-lineal-color-wanicon.png"
-                                    height="10px"
-                                    width="10px"
+                                    height="25px"
+                                    width="25px"
                                     alt={users.first_name}
                                     style={{
                                       marginRight: "5px"
