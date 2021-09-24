@@ -31,37 +31,37 @@ class HeroSliderOne extends Component {
     let data = [
       {
         bgImg: "crowsel0.jpg",
-        sliderTitle: "Build Your Dream With Passion",
+        sliderTitle: "Discover a new way of learning",
         sliderSubtitle:
-          "Learn, Code and start developing your own beautiful websites at no cost.",
+          "Learn, Code and Build your own websites.",
         btnLink: "contact-us"
       },
       {
         bgImg: "crowsel1.jpg",
-        sliderTitle: "Build Your Dream With Passion",
+        sliderTitle: "Discover a new way of learning",
         sliderSubtitle:
-          "Learn, Code and start developing your own beautiful websites at no cost.",
+          "Learn, Code and Build your own websites.",
         btnLink: "contact-us"
       },
       {
         bgImg: "crowsel2.jpg",
-        sliderTitle: "Build Your Dream With Passion",
+        sliderTitle: "Discover a new way of learning",
         sliderSubtitle:
-          "Learn, Code and start developing your own beautiful websites at no cost.",
+          "Learn, Code and Build your own websites.",
         btnLink: "contact-us"
       },
       {
         bgImg: "crowsel3.jpg",
-        sliderTitle: "Build Your Dream With Passion",
+        sliderTitle: "Discover a new way of learning",
         sliderSubtitle:
-          "Learn, Code and start developing your own beautiful websites at no cost.",
+          "Learn, Code and Build your own websites.",
         btnLink: "contact-us"
       },
       {
         bgImg: "crowsel4.jpg",
-        sliderTitle: "Build Your Dream With Passion",
+        sliderTitle: "Discover a new way of learning",
         sliderSubtitle:
-          "Learn, Code and start developing your own beautiful websites at no cost.",
+          "Learn, Code and Build your own websites.",
         btnLink: "contact-us"
       },
       {
