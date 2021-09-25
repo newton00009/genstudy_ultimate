@@ -36,8 +36,8 @@ export default class ShowCategory extends Component {
     axios
       .delete("http://localhost:5000/category?id=" + id)
       .then(result => {
-        // this.forceUpdate()
-        // this.props.history.push("/showcategory/")
+        this.forceUpdate()
+        this.props.history.push("/showcategory/")
         toast.success("Deleted successfully");
       })
       .catch(err => {
@@ -72,7 +72,7 @@ export default class ShowCategory extends Component {
             >
               Edit
             </a>
-            {/* <button onClick={this.delete.bind(this, props.todo._id)} class="btn btn-danger">Delete</button> */}
+            <button onClick={this.delete.bind(this, props.todo._id)} class="btn btn-danger">Delete</button>
             {/* <p>{message}</p> */}
           </td>
         </tr>

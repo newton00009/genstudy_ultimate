@@ -34,12 +34,12 @@ export default class EnrollList extends Component {
   delete(id) {
     console.log(id);
     axios
-      .delete("http://localhost:5000/enrollment?id=" + id)
+      .delete("http://localhost:5000/enrollment?_id=" + id)
       .then(result => {
-        // this.forceUpdate()
+        this.forceUpdate()
 
         toast.success("Deleted successfully");
-        // this.props.history.push("/showenroll/")
+        this.props.history.push("/showenroll/")
       })
       .catch(err => {
         // then print response status
@@ -68,7 +68,7 @@ export default class EnrollList extends Component {
           <td>
             {/* <Link to={"users/edit/"+props.todo._id}>Edit</Link>  */}
             <button className="button muted-button" class="btn btn-success"><Link to={"users/edit/"+props.todo._id}>Edit</Link></button>
-            <a href={"showcourses/edit/"+props.todo._id} class="btn btn-primary btn active" role="button" aria-pressed="true">Delete</a>
+            {/* <a href={"showcourses/edit/"+props.todo._id} class="btn btn-primary btn active" role="button" aria-pressed="true">Edit</a> */}
             {/* {/* <link to='' refresh="true"> */}
             <button
               onClick={this.delete.bind(this, props.todo._id)}
@@ -83,12 +83,12 @@ export default class EnrollList extends Component {
       </div>
     );
     //used in filtering the content coming from database mongo
-    // let filteredusers = this.state.todos.filter(enroll => {
-    //   return (
-    //     enroll.student.email.indexOf(this.state.search) !== -1 ||
-    //     enroll.course.courseName.indexOf(this.state.search) !== -1
-    //   );
-    // });
+    let filteredusers = this.state.todos.filter(enroll => {
+      return (
+        enroll.student.email.indexOf(this.state.search) !== -1 ||
+        enroll.course.courseName.indexOf(this.state.search) !== -1
+      );
+    });
     return (
       <div>
         <NavBar />
@@ -146,9 +146,9 @@ export default class EnrollList extends Component {
             </thead>
             <tbody>
               {/* displaying data coming  */}
-              {/* {filteredusers.map(function(currentTodo, i) {
+              {filteredusers.map(function(currentTodo, i) {
                 return <Todo todo={currentTodo} key={i} />;
-              })} */}
+              })}
             </tbody>
           </table>
         </div>

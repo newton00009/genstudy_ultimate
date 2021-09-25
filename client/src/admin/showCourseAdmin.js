@@ -33,8 +33,8 @@ export default class UserList extends Component {
     axios
       .delete("http://localhost:5000/course?id=" + id)
       .then(result => {
-        // this.forceUpdate()
-        // this.props.history.push("/showcourses/")
+        this.forceUpdate()
+        this.props.history.push("/showcourses/")
         toast.success("Deleted successfully");
       })
       .catch(err => {
@@ -68,7 +68,7 @@ export default class UserList extends Component {
         <tr>
           <td>{props.todo.courseName}</td>
           <td>{props.todo.courseDescription}</td>
-          {/* <td>{props.todo.instructor.email}</td> */}
+          <td>{props.todo.instructor.email}</td>
           <td>{props.todo.categoryName}</td>
           
           <td>
@@ -93,9 +93,9 @@ export default class UserList extends Component {
     let filteredusers = this.state.todos.filter(course => {
       return (
         course.courseName.indexOf(this.state.search) !== -1 ||
-        course.courseDescription.indexOf(this.state.search) !== -1 
-        // course.category.categoryName.indexOf(this.state.search) !== -1 ||
-        // course.instructor.email.indexOf(this.state.search) !== -1
+        course.courseDescription.indexOf(this.state.search) !== -1 ||
+        course.category.categoryName.indexOf(this.state.search) !== -1 ||
+        course.instructor.email.indexOf(this.state.search) !== -1
       );
     });
     return (
@@ -143,9 +143,8 @@ export default class UserList extends Component {
               <tr>
                 <th>Course Title</th>
                 <th>Course Description</th>
-                {/* <th>Instructor</th> */}
-                {/* <th>Category</th> */}
-                <th> </th>
+                <th>Instructor</th>
+                <th>Category</th>
                 <th>Action</th>
               </tr>
             </thead>
